@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 {
+            float: left;
+            padding: 20px;
+            width:20%;
+            border: 1px solid #ccc;
+        }
+
+        .div2 {
+            float: left;
+            padding: 20px;
+            width: 40%;
+            border: 1px solid #ccc;
+        }
+
+        .div3 {
+            float: left;
+            padding: 20px;
+            width:20%;
+            border: 1px solid #ccc;
+        }
+
+        @media  screen and (max-width: 768px) {
+            .div1, .div2, .div3 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        First Div
+    </div>
+
+    <div class="div2">
+        Second Div
+    </div>
+
+    <div class="div3">
+        Third Div
+    </div>
+
+    
+</body>
+</html>
